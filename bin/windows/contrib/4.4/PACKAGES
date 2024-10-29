@@ -1,0 +1,133 @@
+Package: VE2001NHTS
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval
+Suggests: knitr
+License: file LICENSE
+
+Package: VEHouseholdTravel
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, data.table, pscl
+Suggests: VE2001NHTS, knitr
+License: file LICENSE
+
+Package: VEHouseholdVehicles
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, ordinal, reshape2
+Suggests: knitr, VE2001NHTS
+License: file LICENSE
+
+Package: VELandUse
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, geosphere, fields, VESimHouseholds
+Suggests: knitr, VE2001NHTS
+License: file LICENSE
+
+Package: VEModel
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, R6, stringr, yaml, futile.logger, jsonlite,
+        parallelly, future, future.callr, jrc, methods, DBI, RSQLite,
+        data.table
+Suggests: knitr, pkgload, markdown, RMariaDB
+License: file LICENSE
+
+Package: VEPowertrainsAndFuels
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, VEHouseholdTravel
+Suggests: knitr, VE2001NHTS
+License: file LICENSE
+
+Package: VERPAT
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, VEHouseholdTravel
+Suggests: rmarkdown, knitr
+License: file LICENSE
+
+Package: VESimHouseholds
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval
+Suggests: knitr, rmarkdown
+License: file LICENSE
+
+Package: VESimLandUse
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, plot3D, VELandUse, VESimLandUseData
+Suggests: knitr, rmarkdown
+License: file LICENSE
+
+Package: VESimLandUseData
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, tidycensus, stringr
+Suggests: knitr, rmarkdown
+License: file LICENSE
+
+Package: VESimTransportSupply
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, VESimLandUse, VETransportSupply
+Suggests: knitr
+License: file LICENSE
+
+Package: VESnapshot
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval
+Suggests: knitr, VEModel
+License: file LICENSE
+
+Package: VEState
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Suggests: rmarkdown, knitr
+License: file LICENSE
+
+Package: VESyntheticFirms
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, reshape
+Suggests: knitr
+License: file LICENSE
+
+Package: VETransportSupply
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval
+Suggests: knitr
+License: file LICENSE
+
+Package: VETransportSupplyUse
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval
+Suggests: knitr
+License: file LICENSE
+
+Package: VETravelDemandMM
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: dplyr, purrr, MASS, splines, tidyr, pscl, visioneval
+Suggests: knitr, VE2001NHTS, NHTS2009, SLD
+License: file LICENSE
+
+Package: VETravelPerformance
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, dplyr, rlang, magrittr
+Suggests: VEPowertrainsAndFuels, VEHouseholdTravel
+License: file LICENSE
+
+Package: visioneval
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: jsonlite, yaml, stringr, reshape2, rhdf5, knitr, futile.logger
+Suggests: pkgload
+License: file LICENSE

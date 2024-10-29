@@ -1,0 +1,171 @@
+Package: VE2001NHTS
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval
+Suggests: knitr
+License: file LICENSE
+MD5sum: 6453130a0acb683de88a5461929e181e
+NeedsCompilation: no
+
+Package: VEHouseholdTravel
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, data.table, pscl
+Suggests: VE2001NHTS, knitr
+License: file LICENSE
+MD5sum: e3ab644375a98ea8aea6f8dd786a8545
+NeedsCompilation: no
+
+Package: VEHouseholdVehicles
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, ordinal, reshape2
+Suggests: knitr, VE2001NHTS
+License: file LICENSE
+MD5sum: 2f0ecdbc156bccb6934eee3a155c41af
+NeedsCompilation: no
+
+Package: VELandUse
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, geosphere, fields, VESimHouseholds
+Suggests: knitr, VE2001NHTS
+License: file LICENSE
+MD5sum: 638a80154cae73e057d5c19004ec0672
+NeedsCompilation: no
+
+Package: VEModel
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, R6, stringr, yaml, futile.logger, jsonlite,
+        parallelly, future, future.callr, jrc, methods, DBI, RSQLite,
+        data.table
+Suggests: knitr, pkgload, markdown, RMariaDB
+License: file LICENSE
+MD5sum: fcd6cfacfb330537abb4cc481b408435
+NeedsCompilation: no
+
+Package: VEPowertrainsAndFuels
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, VEHouseholdTravel
+Suggests: knitr, VE2001NHTS
+License: file LICENSE
+MD5sum: a7aa09fb4061cfe8e6c02bc50cd21f02
+NeedsCompilation: no
+
+Package: VERPAT
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, VEHouseholdTravel
+Suggests: rmarkdown, knitr
+License: file LICENSE
+MD5sum: 949f55fa0c727352315b463c71f857a2
+NeedsCompilation: no
+
+Package: VESimHouseholds
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval
+Suggests: knitr, rmarkdown
+License: file LICENSE
+MD5sum: 0e349308a2eee054b2f657e2ef300904
+NeedsCompilation: no
+
+Package: VESimLandUse
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, plot3D, VELandUse, VESimLandUseData
+Suggests: knitr, rmarkdown
+License: file LICENSE
+MD5sum: b35a01cae5f3d36a3132d4231739ff88
+NeedsCompilation: no
+
+Package: VESimLandUseData
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, tidycensus, stringr
+Suggests: knitr, rmarkdown
+License: file LICENSE
+MD5sum: a2437058207360787b2d75f57e854993
+NeedsCompilation: no
+
+Package: VESimTransportSupply
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, VESimLandUse, VETransportSupply
+Suggests: knitr
+License: file LICENSE
+MD5sum: 5357632c0e3115b06e42d1b87945d6b2
+NeedsCompilation: no
+
+Package: VESnapshot
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval
+Suggests: knitr, VEModel
+License: file LICENSE
+MD5sum: 72227ca15702702b0e62de1792f16590
+NeedsCompilation: no
+
+Package: VEState
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Suggests: rmarkdown, knitr
+License: file LICENSE
+MD5sum: de817e3c1db36cc900690e1bc134df7c
+NeedsCompilation: no
+
+Package: VESyntheticFirms
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, reshape
+Suggests: knitr
+License: file LICENSE
+MD5sum: 3581502fdd4e77117554498929a176f2
+NeedsCompilation: no
+
+Package: VETransportSupply
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval
+Suggests: knitr
+License: file LICENSE
+MD5sum: ad61d5b2eb56899bd0f6ca98b098442b
+NeedsCompilation: no
+
+Package: VETransportSupplyUse
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval
+Suggests: knitr
+License: file LICENSE
+MD5sum: b27c593f275ecb29129b7ac4dae84892
+NeedsCompilation: no
+
+Package: VETravelDemandMM
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: dplyr, purrr, MASS, splines, tidyr, pscl, visioneval
+Suggests: knitr, VE2001NHTS, NHTS2009, SLD
+License: file LICENSE
+MD5sum: 8bcdaadf3611c0ef3e9dbd78e4ddc607
+NeedsCompilation: no
+
+Package: VETravelPerformance
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: visioneval, dplyr, rlang, magrittr
+Suggests: VEPowertrainsAndFuels, VEHouseholdTravel
+License: file LICENSE
+MD5sum: 9c2b2b8bfd71ef1dc916969d6e4f5ac5
+NeedsCompilation: no
+
+Package: visioneval
+Version: 3.1.1
+Depends: R (>= 4.0.0)
+Imports: jsonlite, yaml, stringr, reshape2, rhdf5, knitr, futile.logger
+Suggests: pkgload
+License: file LICENSE
+MD5sum: f48a28c58c411a843fbd3b5c98b95efc
+NeedsCompilation: no
